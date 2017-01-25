@@ -75,6 +75,15 @@ a:hover {
   display: inline-block;
   font-size: 20px;
 }
+.sidebar-icons {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #788188;
+  font-size: 25px;
+}
+.sidebar-icons:hover {
+  color: white;
+}
 #movies {
   line-height: 1.6em;
 }
@@ -87,13 +96,15 @@ a:hover {
 }
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 150px;
+  background-color: #384047;
   left: 0;
   top: 0;
   bottom: 0;
+  padding-top: 50px;
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 100px;
 }
 
 
