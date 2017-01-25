@@ -1,0 +1,88 @@
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  color: #dd5555;
+  font-size: 22px;
+  font-weight: bold;
+}
+h2 {
+  color: #7D7D7D;
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+p {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 0px;
+  text-align: justify;
+}
+body {
+  color: #7D7D7D;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  background-color: #ebebeb;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #dd5555;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ebebeb;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-red {
+  background-color: #dd5555;
+  color: white;
+  border-radius: 5px;
+  padding: 9px;
+  font-weight: bolder;
+  border: 1px solid lightgrey;
+}
+.list-inlined > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inlined {
+  padding-left: 0px;
+}
+.text-center {
+  text-align: center;
+}
+.fa {
+  display: inline-block;
+  font-size: 20px;
+}
+#movies {
+  line-height: 1.6em;
+}
+#movies td {
+  padding: 10px;
+  padding-left: 26px;
+}
+.tr {
+  display: table-row;
+}
+
